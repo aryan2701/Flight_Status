@@ -16,6 +16,9 @@ This project is a full-stack application designed to provide real-time flight st
 - **Push Notifications**: Firebase Cloud Messaging (FCM)
 - **Service Worker**: Firebase Messaging Service Worker
 
+## Demo Video
+Watch the demo video [here](https://www.youtube.com/watch?v=oXTyY2w_c0Y).
+
 ## Installation
 
 ### Backend Setup
@@ -94,4 +97,3 @@ The service worker is located in `public/firebase-messaging-sw.js` and is respon
 
 - **RabbitMQ Issues:**
     Ensure RabbitMQ server is running and accessible.
-
