@@ -1,0 +1,32 @@
+/* FlightStatus.css */
+.flight-status-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flight-status-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.flight-status-table th,
+.flight-status-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.flight-status-table th {
+  background-color: #004080; /* Indigo Airlines color */
+  color: white;
+}
+
+.flight-status-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.flight-status-table tr:hover {
+  background-color: #ddd;
+}
